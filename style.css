@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f5;
+}
+
+#logo {
+    background-color: #ff3f34;
+    width: 100%;
+}
+
+#logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#nav a {
+    display: block;
+    width: 16.66666667%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    text-transform: uppercase;
+    color: #1e272e;
+    font-size: x-large;
+}
+
+#nav a:hover {
+    background-color: #cacdce;
+    transition: .5s;
+}
+
+#farbe1 {
+    border-top: solid 10px #ff7676;
+}
+
+#farbe2 {
+    border-top: solid 10px #ff0000;
+}
+
+#farbe3 {
+    border-top: solid 10px #ff7676;
+}
+
+#farbe4 {
+    border-top: solid 10px #ff0000;
+}
+
+#farbe5 {
+    border-top: solid 10px #ff7676;
+}
+
+#farbe6 {
+    border-top: solid 10px #ff0000;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 24px;
+}
+
+#foto {
+    width: 100%;
+    height: 700px;
+}
+
+#foto img {
+    width: 85%;
+    height: 120%;
+    margin-top: 24px;
+    margin-bottom: 59px;
+}
+
+#leis-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#leis-foto {
+    width: 100%;
+    height: 700px;
+}
+
+#leis-foto img {
+    width: 75%;
+    height: 90%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#camb2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 24px;
+}
+
+#camb2 {
+    width: 100%;
+    height: 700px;
+}
+
+#camb2 img {
+    width: 85%;
+    height: 90%;
+    margin-top: 24px;
+}
+
+#pro {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pro img {
+    width: 85%;
+    height: 90%;
+}
+
+#projekt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+#projekt1 {
+    width: 60%;
+    height: 700px;
+}
+
+#projekt1 img {
+    float: left;
+    width: 85%;
+    height: 90%;
+    margin-top: 24px;
+}
+
+#projekt3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#projekt3 {
+    width: 60%;
+    height: 700px;
+}
+
+#projekt3 img {
+    float: left;
+    width: 85%;
+    height: 90%;
+}
+
+@media screen and (min-width: 800px) {
+    #foto {
+        height: 600px;
+    }
+}
+
+#mian {
+    max-width: 1200px;
+    margin: auto;
+    font-size: large;
+    padding-top: 24px;
+    padding-bottom: 44px;
+}
+
+#kontakte-mian {
+    float: left;
+    max-width: 1000px;
+    margin-left: 200px;
+    font-size: large;
+}
+
+#impressum-main {
+    max-width: 1000px;
+    margin-left: 170px;
+    font-size: large;
+}
+
+#mian-projekte {
+    max-width: 1200px;
+    margin: auto;
+    font-size: large;
+    padding-top: 24px;
+}
+
+#mian-projekte-teil2 {
+    max-width: 1000px;
+    margin: left;
+    margin-left: 50px;
+    padding-top: 24px;
+}
+
+.elbcloud {
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.cam {
+    margin-bottom: 20px;
+}
+
+.projekte {
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.Kontakte {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.team {
+    margin-top: 64px;
+    margin-bottom: 20px;
+}
+
+.leistung {
+    margin-top: 64px;
+    margin-bottom: 10px;
+}
+
+.camb-write,
+#kontakte {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leistungen-write {
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+
+@media (width:980px) {
+    .camb-write {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .leistungen-write {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (width:980px) {
+    .cam {
+        margin-left: 40px;
+    }
+    .projekte {
+        margin-left: 40px;
+    }
+    .team {
+        margin-left: 40px;
+    }
+    .leistung {
+        margin-left: 40px;
+    }
+    .Ab-hotel {
+        margin-left: 40px;
+    }
+    #Kontakte {
+        margin-left: 40px;
+    }
+    #impressum-main {
+        margin-left: 150px;
+    }
+}
+
+#impressum {
+    margin-top: 100px;
+    margin-bottom: 40;
+}
+
+.info {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.info2 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+@media (width:980px) {
+    .info {
+        font-size: 17px;
+    }
+    .info2 {
+        font-size: 17px;
+        margin-left: 3px;
+    }
+}
+
+#projekt3 {
+    width: 50%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    float: left;
+}
+
+#projekt1 {
+    width: 50%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    float: left;
+}
+
+#data {
+    height: 70px;
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    background-color: #ff3f34;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 550px) {
+    #data {
+        width: 60%;
+    }
+}
+
+footer div a {
+    color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.insta {
+    color: #12161a;
+    width: 40px;
+    height: 40px;
+    margin-left: 140px;
+}
+
+.insta {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    border-radius: 15px;
+}
+
+.lin {
+    color: #0072b1;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+@media (max-width: 550px) {
+    .insta {
+        margin-left: 10px;
+    }
+    .lin {
+        margin-left: 3px;
+    }
+}
+
+@media (width:980px) {
+    .insta {
+        margin-left: 50px;
+    }
+    .lin {
+        margin-left: 10px;
+    }
+}
+
+.videooo {
+    padding-top: 56.25%;
+    position: relative;
+    margin-bottom: 44px;
+}
+
+.videooo video {
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.videooo-vi {
+    width: 70%;
+    margin: auto;
+}
+
+.camii video {
+    margin-left: 760px;
+    height: 110px;
+    margin-bottom: 10px;
+    border-radius: 47px;
+}
+
+@media (width:980px) {
+    .camii video {
+        margin-left: 465px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .camii video {
+        margin-left: 200px;
+    }
+}
+
+.adress {
+    margin-bottom: 20px;
+}
+
+#camb-projekt {
+    margin-left: 24px;
+    margin-right: 24px;
+}
